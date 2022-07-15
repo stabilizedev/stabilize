@@ -1,14 +1,16 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
-  purge: [
-    'source/**/*.blade.php',
-    'source/**/*.md',
-    'source/**/*.html',
-  ],
-  theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-};
+    content: require('fast-glob').sync([
+      'source/**/*.blade.php',
+      'source/**/*.md',
+      'source/**/*.html',
+    ], { dot: true }),
+    theme: {
+      extend: {
+        fontFamily: {
+            sans: ["'Chillax'", ...defaultTheme.fontFamily.sans],
+        }
+      },
+    },
+    plugins: [],
+  };
