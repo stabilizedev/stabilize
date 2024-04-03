@@ -1,0 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+[x-cloak] { display: none !important; }
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/assets/fonts/Chillax-Extralight.otf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/assets/fonts/Chillax-Light.otf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/assets/fonts/Chillax-Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/assets/fonts/Chillax-Medium.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/assets/fonts/Chillax-Semibold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/assets/fonts/Chillax-Bold.otf");
+    font-weight: 700;
+}
+
+.waves {
+    --mask:
+      radial-gradient(24.07px at 50% calc(100% + 15.2px),#0000 calc(99% - 4px),#000 calc(101% - 4px) 99%,#0000 101%) calc(50% - 32px) calc(50% - 10px + .5px)/64px 20px repeat-x,
+      radial-gradient(24.07px at 50% -15.2px,#0000 calc(99% - 4px),#000 calc(101% - 4px) 99%,#0000 101%) 50% calc(50% + 10px)/64px 20px repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+  }
