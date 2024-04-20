@@ -36,7 +36,7 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -560,8 +560,8 @@ video {
 .top-10 {
   top: 2.5rem;
 }
-.top-\[calc\(100\%-13rem\)\] {
-  top: calc(100% - 13rem);
+.top-\[calc\(100\%-40rem\)\] {
+  top: calc(100% - 40rem);
 }
 .isolate {
   isolation: isolate;
@@ -625,9 +625,6 @@ video {
 }
 .mt-6 {
   margin-top: 1.5rem;
-}
-.mt-8 {
-  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -698,14 +695,17 @@ video {
 .max-w-2xl {
   max-width: 42rem;
 }
+.max-w-3xl {
+  max-width: 48rem;
+}
 .max-w-7xl {
   max-width: 80rem;
 }
-.max-w-xl {
-  max-width: 36rem;
-}
 .max-w-lg {
   max-width: 32rem;
+}
+.max-w-xl {
+  max-width: 36rem;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -741,6 +741,9 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.gap-3 {
+  gap: 0.75rem;
 }
 .gap-x-6 {
   -moz-column-gap: 1.5rem;
@@ -913,27 +916,17 @@ video {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
 .pl-6 {
   padding-left: 1.5rem;
 }
 .pl-9 {
   padding-left: 2.25rem;
 }
-.pt-12 {
-  padding-top: 3rem;
-}
 .pt-16 {
   padding-top: 4rem;
 }
 .pt-\[7\%\] {
   padding-top: 7%;
-}
-.pt-10 {
-  padding-top: 2.5rem;
 }
 .text-left {
   text-align: left;
@@ -942,7 +935,7 @@ video {
   text-align: center;
 }
 .font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .text-3xl {
   font-size: 1.875rem;
@@ -964,18 +957,14 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
 .font-bold {
   font-weight: 700;
 }
-.font-semibold {
-  font-weight: 600;
-}
 .font-medium {
   font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1010,10 +999,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(5 150 105 / var(--tw-text-opacity));
 }
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -1022,16 +1007,16 @@ video {
   --tw-text-opacity: 1;
   color: rgb(245 245 245 / var(--tw-text-opacity));
 }
+.text-neutral-300 {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 212 / var(--tw-text-opacity));
+}
 .text-transparent {
   color: transparent;
 }
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-neutral-300 {
-  --tw-text-opacity: 1;
-  color: rgb(212 212 212 / var(--tw-text-opacity));
 }
 .antialiased {
   -webkit-font-smoothing: antialiased;
@@ -1069,6 +1054,40 @@ video {
   -webkit-mask-image: radial-gradient(100% 100% at top right,white,transparent);
           mask-image: radial-gradient(100% 100% at top right,white,transparent);
 }
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Extralight.otf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Light.otf");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Regular.otf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Medium.otf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Semibold.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Bold.otf");
+    font-weight: 700;
+}
+.hover\:bg-emerald-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 95 70 / var(--tw-bg-opacity));
+}
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1076,18 +1095,6 @@ video {
 .hover\:bg-gray-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-.hover\:bg-emerald-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(5 150 105 / var(--tw-bg-opacity));
-}
-.hover\:bg-emerald-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(4 120 87 / var(--tw-bg-opacity));
-}
-.hover\:bg-emerald-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(6 95 70 / var(--tw-bg-opacity));
 }
 .focus-visible\:outline:focus-visible {
   outline-style: solid;
@@ -1098,11 +1105,11 @@ video {
 .focus-visible\:outline-offset-2:focus-visible {
   outline-offset: 2px;
 }
-.focus-visible\:outline-white:focus-visible {
-  outline-color: #fff;
-}
 .focus-visible\:outline-emerald-600:focus-visible {
   outline-color: #059669;
+}
+.focus-visible\:outline-white:focus-visible {
+  outline-color: #fff;
 }
 @media (min-width: 640px) {
 
@@ -1118,10 +1125,6 @@ video {
     left: calc(50% - 30rem);
   }
 
-  .sm\:top-\[calc\(100\%-30rem\)\] {
-    top: calc(100% - 30rem);
-  }
-
   .sm\:mt-20 {
     margin-top: 5rem;
   }
@@ -1132,10 +1135,6 @@ video {
 
   .sm\:mt-6 {
     margin-top: 1.5rem;
-  }
-
-  .sm\:mt-60 {
-    margin-top: 15rem;
   }
 
   .sm\:flex {
@@ -1180,23 +1179,9 @@ video {
     padding-right: 1rem;
   }
 
-  .sm\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
   .sm\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
-  }
-
-  .sm\:py-48 {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-
-  .sm\:pt-10 {
-    padding-top: 2.5rem;
   }
 
   .sm\:text-center {
@@ -1211,11 +1196,6 @@ video {
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .sm\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .sm\:ring-1 {
@@ -1245,6 +1225,10 @@ video {
     margin-top: 6rem;
   }
 
+  .lg\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .lg\:mt-8 {
     margin-top: 2rem;
   }
@@ -1263,6 +1247,10 @@ video {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:gap-6 {
+    gap: 1.5rem;
   }
 
   .lg\:gap-x-8 {

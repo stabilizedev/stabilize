@@ -1,3 +1,39 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Extralight.otf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Light.otf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Medium.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Semibold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Chillax";
+    src: url("/public/fonts/Chillax-Bold.otf");
+    font-weight: 700;
+}

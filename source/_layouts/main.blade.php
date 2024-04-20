@@ -7,6 +7,9 @@
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <meta name="description" content="{{ $page->description }}">
     <title>{{ $page->title }}</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
