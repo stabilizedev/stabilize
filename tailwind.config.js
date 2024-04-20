@@ -9,7 +9,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                'sans': ['"Space Grotesk"', ...defaultTheme.fontFamily.sans],
+                'sans': ['Chillax', ...defaultTheme.fontFamily.sans],
             },
         },
     },
