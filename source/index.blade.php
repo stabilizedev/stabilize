@@ -3,7 +3,7 @@
 @section('body')
 <!-- Hero section -->
 <div class="relative">
-    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+    <div class="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true">
         <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-emerald-600 to-neutral-900 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
@@ -11,9 +11,9 @@
     </div>
     <div class="sm:py-40 lg:py-48">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-4xl text-center">
+            <div class="mx-auto max-w-4xl">
                 <h1
-                    class="text-5xl font-semibold tracking-tight sm:text-5xl lg:text-7xl">
+                    class="text-center mt-8 text-[2.5rem] leading-10 font-semibold tracking-tight sm:mt-0 sm:text-5xl lg:text-7xl">
                     <p>
                         <span
                             class="bg-gradient-to-b from-emerald-300 to-emerald-800 text-transparent bg-clip-text leading-10">Reduce</span>
@@ -26,7 +26,7 @@
                     </p>
                 </h1>
                 <p
-                    class="text-neutral-300 max-w-lg mx-auto mt-4 sm:mt-6 lg:mt-8 leading-7 text-sm lg:text-lg">
+                    class="text-neutral-300 mx-auto mt-4 sm:mt-6 lg:mt-8 leading-7 lg:text-lg">
                     We have the software expertise to help whether you're just
                     getting going or trying to get back on track. Partner with
                     us, keep moving, and enjoy the <span
@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-    <div class="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl top-[calc(100%-40rem)]"
+    <div class="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl top-[calc(100%-20rem)]"
         aria-hidden="true">
         <div class="relative  aspect-[1155/678] -translate-x-1/2 bg-gradient-to-tr from-neutral-900 to-emerald-600 opacity-30  left-[calc(50%+3rem)] w-[36.125rem] sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
             style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
