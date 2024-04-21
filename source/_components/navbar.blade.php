@@ -1,4 +1,11 @@
-<nav x-data="{open: false}">
+<nav x-data="{
+    open: false,
+    scroll: false,
+    setScroll() {
+        this.scroll = window.scrollY > 50;
+    }
+}" class="sticky top-0 z-10" :class="scroll && 'bg-neutral-950'"
+    @scroll.window="setScroll()">
     <div class="mx-auto flex max-w-7xl items-center justify-between p-4">
         <div class="flex sm:hidden z-10">
             <button @click="open = true" x-show="!open" type="button"
@@ -40,24 +47,43 @@
             class="hidden sm:block rounded-full px-2.5 py-1 text-sm font-semibold text-emerald-500 shadow-sm ring-1 ring-inset ring-emerald-600 hover:bg-emerald-500 hover:text-neutral-950">Contact
             Us</a>
     </div>
-    <div class="mb-12 px-6 space-y-4 sm:hidden bg-neutral-950" x-show="open"
-        x-cloak
-        x-transition:enter="transition ease-in-out duration-100 transform"
-        x-transition:enter-start="-translate-y-1/2 opacity-0"
-        x-transition:enter-end="translate-y-0 opacity-100"
-        x-transition:leave="transition ease-in-out duration-150 transform"
-        x-transition:leave-start="translate-y-0 opacity-100"
-        x-transition:leave-end="-translate-y-1/2 opacity-0">
-        <a href="#services"
-            class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Services</a>
-        <a href="#methods"
-            class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Methods</a>
-        <a href="#tools"
-            class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Tools</a>
-        <a href="#team"
-            class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Team</a>
-        <a href="#contact"
-            class="inline-flex -mx-2 rounded-full px-2.5 py-1 font-semibold text-emerald-500 shadow-sm ring-1 ring-inset ring-emerald-600 hover:bg-emerald-500 hover:text-neutral-950">Contact
-            Us</a>
+    <div class="absolute top-16 inset-0 h-80 sm:hidden" x-show="open" x-cloak
+        x-transition:enter="transition-all ease-in-out duration-500 transform"
+        x-transition:enter-start="-translate-y-full"
+        x-transition:enter-end="translate-y-0"
+        x-transition:leave="transition ease-in-out duration-1000 transform"
+        x-transition:leave-start="translate-y-0"
+        x-transition:leave-end="-translate-y-full">
+        <div class="px-6 space-y-4 bg-neutral-950" x-show="open" x-cloak
+            x-transition:enter="transition-all ease-in-out duration-400 transform"
+            x-transition:enter-start="-translate-y-full opacity-0"
+            x-transition:enter-end="translate-y-0 opacity-100"
+            x-transition:leave="transition ease-in-out duration-500 transform"
+            x-transition:leave-start="translate-y-0 opacity-100"
+            x-transition:leave-end="-translate-y-full opacity-0">
+            <a href="#services"
+                class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Services</a>
+            <a href="#methods"
+                class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Methods</a>
+            <a href="#tools"
+                class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Tools</a>
+            <a href="#team"
+                class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Team</a>
+            <a href="#contact"
+                class="inline-flex -mx-2 rounded-full px-2.5 py-1 font-semibold text-emerald-500 shadow-sm ring-1 ring-inset ring-emerald-600 hover:bg-emerald-500 hover:text-neutral-950">Contact
+                Us</a>
+        </div>
+        <div class="bg-neutral-950 pt-4 h-[2.125rem]" x-show="open" x-cloak
+            x-transition:enter="transition-all ease-in-out duration-200 transform"
+            x-transition:enter-start="-translate-y-full opacity-0"
+            x-transition:enter-end="translate-y-0 opacity-100"
+            x-transition:leave="transition ease-in-out duration-100 transform"
+            x-transition:leave-start="translate-y-0 opacity-100"
+            x-transition:leave-end="-translate-y-full opacity-0">
+            <div class="block waves h-6 bg-neutral-950 shadow-sm">
+            </div>
+            <div class="block waves h-6 -mt-[1.25rem] bg-emerald-500 shadow-sm">
+            </div>
+        </div>
     </div>
 </nav>

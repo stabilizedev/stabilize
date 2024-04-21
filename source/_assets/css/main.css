@@ -39,3 +39,11 @@
     src: url("/assets/fonts/Chillax-Bold.otf");
     font-weight: 700;
 }
+
+.waves {
+    --mask:
+      radial-gradient(24.07px at 50% calc(100% + 15.2px),#0000 calc(99% - 4px),#000 calc(101% - 4px) 99%,#0000 101%) calc(50% - 32px) calc(50% - 10px + .5px)/64px 20px repeat-x,
+      radial-gradient(24.07px at 50% -15.2px,#0000 calc(99% - 4px),#000 calc(101% - 4px) 99%,#0000 101%) 50% calc(50% + 10px)/64px 20px repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+  }
