@@ -5,7 +5,7 @@
         this.scroll = window.scrollY > 50;
     }
 }" class="sticky top-0 z-10" :class="scroll && 'bg-neutral-950'"
-    @scroll.window="setScroll()">
+    @scroll.window="setScroll()" @click.away="open = false">
     <div class="mx-auto flex max-w-7xl items-center justify-between p-4">
         <div class="flex sm:hidden z-10">
             <button @click="open = true" x-show="!open" type="button"
@@ -27,7 +27,7 @@
                 </svg>
             </button>
         </div>
-        <a href="/" class="flex-1 z-10 sm:flex-none">
+        <a @click="open = false" `href="/" class="flex-1 z-10 sm:flex-none">
             <span class="sr-only">Stabilize</span>
             <img class="h-10 w-auto"
                 src="/assets/images/stabilize-white-text-emerald-logo.png"
@@ -61,15 +61,15 @@
             x-transition:leave="transition ease-in-out duration-500 transform"
             x-transition:leave-start="translate-y-0 opacity-100"
             x-transition:leave-end="-translate-y-full opacity-0">
-            <a href="#services"
+            <a @click="open = false" `href="#services"
                 class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Services</a>
-            <a href="#methods"
+            <a @click="open = false" `href="#methods"
                 class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Methods</a>
-            <a href="#tools"
+            <a @click="open = false" `href="#tools"
                 class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Tools</a>
-            <a href="#team"
+            <a @click="open = false" `href="#team"
                 class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Team</a>
-            <a href="#contact"
+            <a @click="open = false" `href="#contact"
                 class="inline-flex -mx-2 rounded-full px-2.5 py-1 font-semibold text-emerald-500 shadow-sm ring-1 ring-inset ring-emerald-600 hover:bg-emerald-500 hover:text-neutral-950">Contact
                 Us</a>
         </div>

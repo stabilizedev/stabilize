@@ -1,7 +1,6 @@
-<footer aria-labelledby="footer-heading"
-    class="bg-gradient-to-b from-neutral-950 to-emerald-950">
+<footer aria-labelledby="footer-heading" class="w-full max-w-7xl mx-auto">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="mx-auto max-w-7xl px-6 pb-8">
+    <div class="mx-auto max-w-2xl px-6 pb-8 lg:max-w-none">
         <div
             class="mt-16 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
             <div>

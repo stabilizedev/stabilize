@@ -11,7 +11,7 @@
     </div>
     <div class="py-12 sm:py-56 lg:py-64">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-4xl">
+            <div class="mx-auto max-w-2xl lg:max-w-none text-center">
                 <h1
                     class="text-center text-[2.5rem] leading-10 font-semibold tracking-tight sm:mt-0 sm:text-5xl lg:text-7xl">
                     <p>
@@ -26,7 +26,7 @@
                     </p>
                 </h1>
                 <p
-                    class="text-neutral-300 mx-auto mt-4 sm:mt-6 lg:mt-8 leading-7 lg:text-lg">
+                    class="text-balance text-neutral-300 mx-auto mt-4 sm:mt-6 sm:text-lg lg:mt-8 leading-7 lg:text-xl lg:max-w-2xl">
                     We have the software expertise to help whether you're just
                     getting going or trying to get back on track. Partner with
                     us, keep moving, and enjoy the <span
@@ -38,9 +38,9 @@
                         class="rounded-md px-3.5 py-2.5 text-xs sm:text-sm uppercase tracking-widest font-semibold shadow-sm bg-emerald-600 hover:bg-emerald-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">Stabilize
                         your development</a>
                     <p href="#"
-                        class="flex items-center text-sm font-semibold leading-6">
+                        class="flex items-center font-semibold leading-6 text-sm sm:text-base">
                         Learn
-                        more <span class="animate-bounce text-emerald-500"
+                        more <span class="animate-bounce text-emerald-500 mt-1"
                             aria-hidden="true"><svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 16 16" fill="currentColor"
@@ -359,30 +359,17 @@
     </div>
 </div>
 
-
-<!--
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
 <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2" id="contact">
-    <div class="px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
-        <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-            <h2 class="text-3xl font-bold tracking-tight text-neutral-50">Get in
-                touch</h2>
-            <p class="mt-6 text-lg leading-8 text-neutral-300">Proin volutpat
-                consequat porttitor cras nullam gravida at. Orci molestie a
-                eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed
-                malesuada et magna.</p>
+    <div class="px-6 pb-12 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+        <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+            <h2 class="text-3xl font-bold tracking-tight text-neutral-50">
+                Get Stable
+            </h2>
+            <p class="mt-6 text-lg leading-8 text-neutral-300">
+                Proin volutpat consequat porttitor cras nullam gravida at. Orci
+                molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
+                Arcu sed malesuada et magna.
+            </p>
             <dl class="mt-10 space-y-4 text-base leading-7 text-neutral-300">
                 <div class="flex gap-x-4">
                     <dt class="flex-none">
@@ -394,7 +381,8 @@
                                 d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
                         </svg>
                     </dt>
-                    <dd>545 Mavis Island<br>Chicago, IL 99191</dd>
+                    <dd>10522 Santa Gertrudes Ave #103<br>Whittier, CA 90603
+                    </dd>
                 </div>
                 <div class="flex gap-x-4">
                     <dt class="flex-none">
@@ -428,8 +416,8 @@
         </div>
     </div>
     <form action="#" method="POST"
-        class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
-        <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
+        class="px-6 pb-24 pt-12 sm:pb-32 lg:px-8 lg:py-48">
+        <div class="mx-auto max-w-2xl lg:mr-0 lg:max-w-lg">
             <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
                     <label for="first-name"
