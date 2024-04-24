@@ -1,7 +1,6 @@
 @extends('_layouts.main')
 
 @section('body')
-<!-- Hero section -->
 <div class="relative">
     <div class="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true">
@@ -26,7 +25,7 @@
                     </p>
                 </h1>
                 <p
-                    class="text-balance text-neutral-300 mx-auto mt-4 sm:mt-6 sm:text-lg lg:mt-8 leading-7 lg:text-xl lg:max-w-2xl xl:text-2xl xl:mt-12">
+                    class="text-balance text-neutral-300 mx-auto mt-4 sm:mt-6 sm:text-lg lg:mt-8 lg:text-xl lg:max-w-2xl xl:text-2xl xl:mt-12">
                     We have the software expertise to help whether you're just
                     getting going or trying to get back on track. Partner with
                     us, keep moving, and enjoy the <span
@@ -38,7 +37,7 @@
                         class="rounded-md px-3.5 py-2.5 text-xs sm:text-sm xl:text-base uppercase tracking-widest font-semibold shadow-sm bg-emerald-600 hover:bg-emerald-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">Stabilize
                         your development</a>
                     <p href="#"
-                        class="flex items-center font-semibold leading-6 text-sm sm:text-base">
+                        class="flex items-center font-semibold text-sm sm:text-base">
                         Learn
                         more <span class="animate-bounce text-emerald-500 mt-1"
                             aria-hidden="true"><svg
@@ -62,18 +61,17 @@
     </div>
 </div>
 
-<div class="py-12 sm:py-24 lg:py-32" id="focus">
+<div class="py-16 sm:py-24 lg:py-32" id="focus">
     <div
-        class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24 grid grid-cols-1 lg:grid-cols-3">
         <div class="mx-auto max-w-2xl lg:mx-0">
-            <h2 class="text-base font-semibold leading-7 text-emerald-500">
+            <h2 class="text-base font-semibold text-emerald-500 xl:text-lg">
                 Reduce Friction</h2>
             <p
-                class="mt-2 text-3xl font-bold tracking-tight text-neutral-50 sm:text-4xl">
+                class="mt-2 text-3xl font-bold tracking-tight text-neutral-50 sm:text-4xl xl:text-5xl">
                 Our Focus
             </p>
-            <p
-                class="mt-6 leading-8 text-neutral-300 md:max-w-sm lg:max-w-none">
+            <p class="mt-6 leading-8 text-neutral-300 lg:max-w-none xl:text-lg">
                 We're experts first-and-foremost on web applications. You have
                 an idea, and we'll help you build a stable solution that scales!
                 Here are the tools we use to reduce friction and maintain
@@ -81,7 +79,7 @@
             </p>
         </div>
         <div
-            class="mx-auto mt-16 grid grid-cols-1 gap-8 text-base leading-7 text-neutral-300 sm:grid-cols-2 lg:gap-x-16 lg:col-span-2">
+            class="mx-auto mt-16 grid grid-cols-1 gap-8 text-base text-neutral-300 sm:grid-cols-2 lg:gap-x-16 lg:col-span-2">
             <div class="flex items-center gap-4 -mx-4 sm:col-span-2 sm:mx-auto">
                 <svg viewBox="0 0 128 128"
                     class="h-[4.5rem] lg:h-20 w-auto text-neutral-300 stroke-none fill-current flex-shrink-0">
@@ -175,16 +173,16 @@
     </div>
 </div>
 
-<div class="py-12 sm:py-24 lg:py-32" id="services">
+<div class="py-16 sm:py-24 lg:py-32" id="services">
     <div class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24">
         <div class="mx-auto max-w-2xl lg:mx-0">
-            <h2
-                class="text-base font-semibold leading-7 text-emerald-500 xl:text-lg">
+            <h2 class="text-base font-semibold text-emerald-500 xl:text-lg">
                 Build Momentum</h2>
             <p
                 class="mt-2 text-3xl font-bold tracking-tight text-neutral-100 sm:text-4xl xl:text-5xl">
                 Our Services</p>
-            <p class="mt-6 leading-8 text-neutral-300 lg:max-w-sm xl:mx-w-md">
+            <p
+                class="mt-6 leading-8 text-neutral-300 lg:max-w-md xl:max-w-lg xl:text-lg">
                 Whether you're brand new, seasoned, or veterans, there's always
                 something to improve. We focus on one, or all, of the following
                 to get you moving, no matter your size.
@@ -195,7 +193,7 @@
                 class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                 <div class="flex flex-col">
                     <dt
-                        class="text-base font-semibold leading-7 text-neutral-50 xl:text-lg">
+                        class="text-base font-semibold text-neutral-50 xl:text-lg">
                         <div
                             class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500 xl:h-12 xl:w-12">
                             <svg class="h-7 w-7 text-white fill-current xl:h-8 xl:w-8"
@@ -208,7 +206,7 @@
                         Development Kickstart
                     </dt>
                     <dd
-                        class="mt-1 flex flex-auto flex-col text-base leading-7 text-neutral-300">
+                        class="mt-1 flex flex-auto flex-col text-base text-neutral-300 leading-7">
                         <p class="flex-auto">No developers? Small team? No
                             problem! Our passionate programmers will get your
                             project going. Once we set up a solid foundation,
@@ -220,7 +218,7 @@
                 </div>
                 <div class="flex flex-col">
                     <dt
-                        class="text-base font-semibold leading-7 text-neutral-50 xl:text-lg">
+                        class="text-base font-semibold text-neutral-50 xl:text-lg">
                         <div
                             class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500 xl:h-12 xl:w-12">
                             <svg class="h-7 w-7 text-white fill-current xl:h-8 xl:w-8"
@@ -230,10 +228,10 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </div>
-                        Product & Process Audits
+                        Product & Process Audit
                     </dt>
                     <dd
-                        class="mt-1 flex flex-auto flex-col text-base leading-7 text-neutral-300">
+                        class="mt-1 flex flex-auto flex-col text-base text-neutral-300 leading-7">
                         <p class="flex-auto">Already have a product? Let us take
                             a look! We're seasoned developers and product people
                             and can audit your codebase, your development
@@ -245,7 +243,7 @@
                 </div>
                 <div class="flex flex-col">
                     <dt
-                        class="text-base font-semibold leading-7 text-neutral-50 xl:text-lg">
+                        class="text-base font-semibold text-neutral-50 xl:text-lg">
                         <div
                             class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500 xl:h-12 xl:w-12">
                             <svg class="h-7 w-7 text-white fill-current xl:h-8 xl:w-8"
@@ -263,7 +261,7 @@
                         Toolkit Tailoring
                     </dt>
                     <dd
-                        class="mt-1 flex flex-auto flex-col text-base leading-7 text-neutral-300">
+                        class="mt-1 flex flex-auto flex-col text-base text-neutral-300 leading-7">
                         <p class="flex-auto">Struggling with efficiency or
                             transparency? It might be your tools. We're experts
                             at picking the right ones to reinforce great
@@ -278,17 +276,18 @@
     </div>
 </div>
 
-<div class="py-12 sm:py-24 lg:py-32" id="methods">
+<div class="py-16 sm:py-24 lg:py-32" id="methods">
     <div class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24">
         <div
-            class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-1">
             <div>
-                <h2 class="text-base font-semibold leading-7 text-emerald-500">
+                <h2 class="text-base font-semibold text-emerald-500 xl:text-lg">
                     Stay Balanced</h2>
                 <p
-                    class="mt-2 text-3xl font-bold tracking-tight text-neutral-100 sm:text-4xl">
+                    class="mt-2 text-3xl font-bold tracking-tight text-neutral-100 sm:text-4xl xl:text-5xl">
                     Our Methods</p>
-                <p class="mt-6 leading-8 text-neutral-300 xl:text-lg">
+                <p
+                    class="mt-6 leading-8 text-neutral-300 lg:max-w-md xl:max-w-lg xl:text-lg">
                     We're no strangers to the mess of modern development, and we
                     have the battle scars to prove it. These are some of the
                     skills we've honed over the years to make sure development
@@ -296,7 +295,7 @@
                 </p>
             </div>
             <dl
-                class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-neutral-300 sm:grid-cols-2 lg:gap-y-16">
+                class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base text-neutral-300 sm:grid-cols-2 lg:gap-y-16">
                 <div class="relative pl-9">
                     <dt class="font-semibold text-neutral-100">
                         <svg class="absolute left-0 top-1 h-5 w-5 text-emerald-500"
@@ -308,7 +307,7 @@
                         </svg>
                         Product Discovery
                     </dt>
-                    <dd class="mt-2">The first thing we focus on is
+                    <dd class="mt-2 leading-7">The first thing we focus on is
                         understanding the <span
                             class="italic font-medium">whys</span> so we can
                         figure out the best <span
@@ -328,7 +327,8 @@
                         </svg>
                         Development, Stabilized
                     </dt>
-                    <dd class="mt-2">There's no point in sprinting if you're
+                    <dd class="mt-2 leading-7">There's no point in sprinting if
+                        you're
                         going to trip before the finish line. We focus on clean,
                         tested, and maintainable code for a solid foundation,
                         then you're free to speed up. Don't forget the tortoise
@@ -345,7 +345,8 @@
                         </svg>
                         Stability over Agility
                     </dt>
-                    <dd class="mt-2">We love to be agile (lowercase a), but the
+                    <dd class="mt-2 leading-7">We love to be agile (lowercase
+                        a), but the
                         dogma of Agile often hurts more than it heals. We throw
                         out the cruft and focus on the core to keep you moving
                         without friction. Ship more, worry less, thank us later.
@@ -362,7 +363,8 @@
                         </svg>
                         Great people drive great process
                     </dt>
-                    <dd class="mt-2">We're huge process-people, but we're even
+                    <dd class="mt-2 leading-7">We're huge process-people, but
+                        we're even
                         bigger people-people. We'll illuminate your blind spots
                         and make sure internal feedback is frictionless so you
                         move in the right direction. Then we'll naturally
@@ -374,18 +376,23 @@
     </div>
 </div>
 
-<div class="py-12 sm:py-24 lg:py-32" id="contact">
-    <div class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24">
-        <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-            <h2 class="text-base font-semibold leading-7 text-emerald-500">
+<div class="py-16 sm:py-24 lg:py-32" id="contact">
+    <div
+        class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24 grid grid-cols-1 lg:grid-cols-3">
+        <div class="mx-auto max-w-2xl lg:mx-0">
+            <h2 class="text-base font-semibold text-emerald-500 xl:text-lg">
                 Keep Moving</h2>
             <p
-                class="mt-2 text-3xl font-bold tracking-tight text-neutral-100 sm:text-4xl">
-                Get Stable</p>
-            <p class="mt-6 leading-8 text-neutral-300 xl:text-lg">
-                Let us help you.
+                class="mt-2 text-3xl font-bold tracking-tight text-neutral-50 sm:text-4xl xl:text-5xl">
+                Get Stable
             </p>
-            <dl class="mt-10 space-y-4 text-base leading-7 text-neutral-300">
+            <p class="mt-6 leading-8 text-neutral-300 lg:max-w-none xl:text-lg">
+                Stop dealing with buggy software, bad processes, and mindless
+                busy work. We'll remove your friction so you can get back to
+                building great products. Reach out and let's talk about how we
+                can stabilize your development, once and for all.
+            </p>
+            <dl class="mt-10 space-y-4 text-base text-neutral-300">
                 <div class="flex gap-x-4">
                     <dt class="flex-none">
                         <span class="sr-only">Address</span>
@@ -417,54 +424,52 @@
             </dl>
         </div>
         <form action="#" method="POST"
-            class="mt-12 lg:col-span-2 mx-auto w-full">
-            <div class="mx-auto max-w-2xl lg:mr-0 lg:max-w-2xl">
-                <div
-                    class="mx-auto grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-                    <div>
-                        <label for="first-name"
-                            class="block text-sm font-semibold leading-6 text-neutral-50">First
-                            name</label>
-                        <div class="mt-2.5">
-                            <input type="text" name="first-name" id="first-name"
-                                autocomplete="given-name"
-                                class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm:leading-6">
-                        </div>
-                    </div>
-                    <div>
-                        <label for="last-name"
-                            class="block text-sm font-semibold leading-6 text-neutral-50">Last
-                            name</label>
-                        <div class="mt-2.5">
-                            <input type="text" name="last-name" id="last-name"
-                                autocomplete="family-name"
-                                class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm:leading-6">
-                        </div>
-                    </div>
-                    <div class="sm:col-span-2">
-                        <label for="email"
-                            class="block text-sm font-semibold leading-6 text-neutral-50">Email</label>
-                        <div class="mt-2.5">
-                            <input type="email" name="email" id="email"
-                                autocomplete="email"
-                                class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm:leading-6">
-                        </div>
-                    </div>
-                    <div class="sm:col-span-2">
-                        <label for="message"
-                            class="block text-sm font-semibold leading-6 text-neutral-50">How
-                            can we help?</label>
-                        <div class="mt-2.5">
-                            <textarea name="message" id="message" rows="4"
-                                class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm:leading-6"></textarea>
-                        </div>
+            class="mt-12 lg:col-span-2 mx-auto w-full lg:w-5/6">
+            <div
+                class="mx-auto grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                <div>
+                    <label for="first-name"
+                        class="block text-sm font-semibold text-neutral-50">First
+                        name</label>
+                    <div class="mt-2.5">
+                        <input type="text" name="first-name" id="first-name"
+                            autocomplete="given-name"
+                            class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm">
                     </div>
                 </div>
-                <div class="mt-8 flex justify-end">
-                    <button type="submit"
-                        class="rounded-md bg-emerald-500 px-3.5 py-2.5 text-center text-sm font-semibold text-neutral-50 shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500">Send
-                        message</button>
+                <div>
+                    <label for="last-name"
+                        class="block text-sm font-semibold text-neutral-50">Last
+                        name</label>
+                    <div class="mt-2.5">
+                        <input type="text" name="last-name" id="last-name"
+                            autocomplete="family-name"
+                            class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm">
+                    </div>
                 </div>
+                <div class="sm:col-span-2">
+                    <label for="email"
+                        class="block text-sm font-semibold text-neutral-50">Email</label>
+                    <div class="mt-2.5">
+                        <input type="email" name="email" id="email"
+                            autocomplete="email"
+                            class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm">
+                    </div>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message"
+                        class="block text-sm font-semibold text-neutral-50">How
+                        can we help?</label>
+                    <div class="mt-2.5">
+                        <textarea name="message" id="message" rows="4"
+                            class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 flex justify-end">
+                <button type="submit"
+                    class="rounded-md bg-emerald-500 px-3.5 py-2.5 text-center text-sm font-semibold text-neutral-50 shadow-sm hover:bg-emerald-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500">Reach
+                    Out</button>
             </div>
         </form>
     </div>
