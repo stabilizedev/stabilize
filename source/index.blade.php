@@ -262,7 +262,7 @@
                         class="mt-1 flex flex-auto flex-col text-base leading-7 text-neutral-300">
                         <p class="flex-auto">Not getting enough out of your
                             tools? Struggling with efficiency or transparency?
-                            We're experts at picking the right tools to backup
+                            We're experts at picking the right tools to back up
                             good processes. Whether you choose a product we've
                             built, or the next best thing, we'll train you to
                             use it to maximize your momentum.
@@ -287,7 +287,8 @@
                 <p class="mt-6 leading-8 text-neutral-300 xl:text-lg">
                     We're no strangers to the mess of modern development, and we
                     have the battle scars to prove it. These are some of the
-                    skills we've honed to make sure development is stable.
+                    skills we've honed over the years to make sure development
+                    is stable.
                 </p>
             </div>
             <dl
@@ -336,10 +337,10 @@
                                 d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
                                 clip-rule="evenodd" />
                         </svg>
-                        Stability over agility
+                        Stability over Agility
                     </dt>
                     <dd class="mt-2">We love to be agile (lowercase a), but the
-                        dogma of Agile ofter hurts more than it heals. We throw
+                        dogma of Agile often hurts more than it heals. We throw
                         out the cruft and focus on the core to keep you moving
                         without friction.</dd>
                 </div>
@@ -352,10 +353,15 @@
                                 d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
                                 clip-rule="evenodd" />
                         </svg>
-                        Developer Agency
+                        Right People > Right Process
                     </dt>
-                    <dd class="mt-2">Sed rerum sunt dignissimos ullam. Iusto
-                        iure occaecati voluptate eligendi fugiat sequi.</dd>
+                    <dd class="mt-2">We're huge process people, but we're even
+                        bigger people people. We've seen companies fail by not
+                        listening to their people or not encouraging feedback.
+                        We'll illuminate your blind spots and make sure feedback
+                        is frictionless and valuable so you move in the right
+                        direction.
+                    </dd>
                 </div>
                 <div class="relative pl-9">
                     <dt class="font-semibold text-neutral-100">
