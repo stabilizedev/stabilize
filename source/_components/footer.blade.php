@@ -1,7 +1,8 @@
-<footer aria-labelledby="footer-heading" class="w-full max-w-7xl mx-auto">
+<footer aria-labelledby="footer-heading"
+    class="w-full max-w-screen-2xl mx-auto">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="mx-auto max-w-2xl px-6 pb-8 lg:max-w-none">
-        <div
+    <div class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24">
+        <!-- <div
             class="mt-16 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
             <div>
                 <h3 class="text-sm font-semibold leading-6 text-white">Subscribe
@@ -20,9 +21,9 @@
                         class="flex w-full items-center justify-center rounded-md bg-emerald-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500">Subscribe</button>
                 </div>
             </form>
-        </div>
+        </div> -->
         <div
-            class="mt-8 border-t border-emerald-500/25 pt-8 md:flex md:items-center md:justify-between">
+            class="mt-8 mb-2 border-t border-emerald-500/25 pt-8 md:flex md:items-center md:justify-between">
             <div class="flex space-x-6 md:order-2">
                 <a href="#" class="text-neutral-50 hover:text-neutral-400">
                     <span class="sr-only">X</span>
