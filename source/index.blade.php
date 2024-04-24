@@ -26,9 +26,9 @@
                 </h1>
                 <p
                     class="text-balance text-neutral-300 mx-auto mt-4 sm:mt-6 sm:text-lg lg:mt-8 lg:text-xl lg:max-w-2xl xl:text-2xl xl:mt-12">
-                    We have the software expertise to help whether you're just
-                    getting going or trying to get back on track. Partner with
-                    us, keep moving, and enjoy the <span
+                    Whether you're just getting going or trying to get back on
+                    track, we're experts at stable web development. Partner with
+                    us and enjoy the <span
                         class="font-semibold text-emerald-500 italic">stability</span>.
                 </p>
                 <div
@@ -183,15 +183,16 @@
                 Our Services</p>
             <p
                 class="mt-6 leading-8 text-neutral-300 lg:max-w-md xl:max-w-lg xl:text-lg">
-                Whether you're brand new, seasoned, or veterans, there's always
-                something to improve. We focus on one, or all, of the following
-                to get you moving, no matter your size.
+                Whether you're brand new, seasoned, or veterans at development,
+                there's always something to improve. We offer the
+                following to get you moving, no matter your size.
             </p>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
             <dl
-                class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-                <div class="flex flex-col">
+                class="grid max-w-xl mx-auto grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                <div
+                    class="flex flex-col bg-emerald-950/20 border border-emerald-500 rounded-lg p-4 transform duration-300 hover:cursor-pointer hover:scale-105 hover:shadow-sm hover:shadow-emerald-950">
                     <dt
                         class="text-base font-semibold text-neutral-50 xl:text-lg">
                         <div
@@ -216,7 +217,8 @@
                             right.</p>
                     </dd>
                 </div>
-                <div class="flex flex-col">
+                <div
+                    class="flex flex-col bg-emerald-950/20 border border-emerald-500 rounded-lg p-4 transform duration-300 hover:cursor-pointer hover:scale-105">
                     <dt
                         class="text-base font-semibold text-neutral-50 xl:text-lg">
                         <div
@@ -241,7 +243,8 @@
                         </p>
                     </dd>
                 </div>
-                <div class="flex flex-col">
+                <div
+                    class="flex flex-col bg-emerald-950/20 border border-emerald-500 rounded-lg p-4 transform duration-300 hover:cursor-pointer hover:scale-105">
                     <dt
                         class="text-base font-semibold text-neutral-50 xl:text-lg">
                         <div
@@ -393,20 +396,6 @@
                 can stabilize your development, once and for all.
             </p>
             <dl class="mt-10 space-y-4 text-base text-neutral-300">
-                <div class="flex gap-x-4">
-                    <dt class="flex-none">
-                        <span class="sr-only">Address</span>
-                        <svg class="h-7 w-6 text-neutral-400" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
-                        </svg>
-                    </dt>
-                    <dd>10522 Santa Gertrudes Ave #103<br>Whittier, CA
-                        90603
-                    </dd>
-                </div>
                 <div class="flex gap-x-4">
                     <dt class="flex-none">
                         <span class="sr-only">Email</span>
