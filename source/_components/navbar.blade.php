@@ -7,7 +7,8 @@
 }" class="sticky top-0 z-10 transition-all duration-150 sm:px-3"
     :class="scroll && 'bg-neutral-950 sm:border-b sm:border-emerald-500'"
     @scroll.window="setScroll()" @click.away="open = false">
-    <div class="mx-auto flex max-w-screen-2xl items-center justify-between p-4">
+    <div
+        class="mx-auto flex max-w-screen-2xl items-center justify-between p-4 sm:px-6 lg:px-12 xl:px-24">
         <div class="flex sm:hidden z-10">
             <button @click="open = true" x-show="!open" type="button"
                 class="rounded-lg transition delay-75 p-1 ml-1 mr-3 hover:bg-emerald-500">
@@ -37,11 +38,11 @@
         <div
             class="hidden sm:flex sm:flex-1 sm:justify-center sm:gap-x-6 xl:gap-x-12">
             <a href="#focus"
-                class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline xl:text-xl">Focus</a>
+                class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-8 decoration-emerald-500 hover:underline lg:text-xl">Focus</a>
             <a href="#services"
-                class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline xl:text-xl">Services</a>
+                class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-8 decoration-emerald-500 hover:underline lg:text-xl">Services</a>
             <a href="#methods"
-                class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline xl:text-xl">Methods</a>
+                class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-8 decoration-emerald-500 hover:underline lg:text-xl">Methods</a>
         </div>
         <a href="#contact"
             class="hidden sm:block rounded-full px-2.5 py-1 text-sm font-semibold text-emerald-500 shadow-sm ring-1 ring-inset ring-emerald-600 hover:bg-emerald-500 hover:text-neutral-950 xl:text-lg">Contact
