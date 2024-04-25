@@ -8,19 +8,20 @@
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180"
-        href="/assets/images/favicon/apple-touch-icon.png">
+        href="/assets/images/favicon/apple-touch-icon.png?v=2">
     <link rel="icon" type="image/png" sizes="32x32"
-        href="/assets/images/favicon/favicon-32x32.png">
+        href="/assets/images/favicon/favicon-32x32.png?v=2">
     <link rel="icon" type="image/png" sizes="16x16"
-        href="/assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg"
-        color="#5bbad5">
-    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
+        href="/assets/images/favicon/favicon-16x16.png?v=2">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest?v=2">
+    <link rel="mask-icon"
+        href="/assets/images/favicon/safari-pinned-tab.svg?v=2" color="#10b981">
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico?v=2">
+    <meta name="apple-mobile-web-app-title" content="Stabilize">
+    <meta name="application-name" content="Stabilize">
+    <meta name="msapplication-TileColor" content="#0a0a0a">
     <meta name="msapplication-config"
-        content="/assets/images/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+        content="/assets/images/favicon/browserconfig.xml?v=2">
 
     <title>{{ $page->title }}</title>
     <meta name="description" content="{{ $page->description }}">
