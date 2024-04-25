@@ -398,7 +398,7 @@
         </div>
         <form name="help" action="/form/success" method="POST"
             netlify-honeypot="honeypot" data-netlify="true"
-            class="mt-12 lg:col-span-2 mx-auto w-full lg:w-5/6">
+            class="mt-12 lg:col-span-2 mx-auto w-full max-w-2xl lg:w-5/6">
             <div
                 class="mx-auto grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div class="hidden">
@@ -407,31 +407,38 @@
                     </label>
                 </div>
                 <div>
-                    <label for="first-name"
-                        class="block text-sm font-semibold text-neutral-50">First
-                        name</label>
+                    <label for="name"
+                        class="block text-sm font-semibold text-neutral-50">Name</label>
                     <div class="mt-2.5">
-                        <input type="text" name="first-name" id="first-name"
-                            autocomplete="given-name"
+                        <input type="text" name="name" id="name"
+                            autocomplete="name"
                             class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm">
                     </div>
                 </div>
                 <div>
-                    <label for="last-name"
-                        class="block text-sm font-semibold text-neutral-50">Last
-                        name</label>
-                    <div class="mt-2.5">
-                        <input type="text" name="last-name" id="last-name"
-                            autocomplete="family-name"
-                            class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm">
-                    </div>
-                </div>
-                <div class="sm:col-span-2">
                     <label for="email"
                         class="block text-sm font-semibold text-neutral-50">Email</label>
                     <div class="mt-2.5">
                         <input type="email" name="email" id="email"
                             autocomplete="email"
+                            class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm">
+                    </div>
+                </div>
+                <div>
+                    <label for="company"
+                        class="block text-sm font-semibold text-neutral-50">Company</label>
+                    <div class="mt-2.5">
+                        <input type="text" name="company" id="company"
+                            autocomplete="company"
+                            class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm">
+                    </div>
+                </div>
+                <div>
+                    <label for="phone"
+                        class="block text-sm font-semibold text-neutral-50">Phone</label>
+                    <div class="mt-2.5">
+                        <input type="tel" name="phone" id="phone"
+                            autocomplete="tel"
                             class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-neutral-50 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm">
                     </div>
                 </div>
