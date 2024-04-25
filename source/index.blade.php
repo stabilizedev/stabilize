@@ -61,7 +61,7 @@
     </div>
 </div>
 
-<div class="py-16 sm:py-24 lg:py-32" id="focus">
+<div class="py-20 sm:py-24 lg:py-32" id="focus">
     <div
         class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24 grid grid-cols-1 lg:grid-cols-3">
         <div class="mx-auto max-w-2xl lg:mx-0">
@@ -173,7 +173,7 @@
     </div>
 </div>
 
-<div class="py-16 sm:py-24 lg:py-32" id="services">
+<div class="py-20 sm:py-24 lg:py-32" id="services">
     <div class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24">
         <div class="mx-auto max-w-2xl lg:mx-0">
             <h2 class="text-base font-semibold text-emerald-500 xl:text-lg">
@@ -279,7 +279,7 @@
     </div>
 </div>
 
-<div class="py-16 sm:py-24 lg:py-32" id="methods">
+<div class="py-20 sm:py-24 lg:py-32" id="methods">
     <div class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24">
         <div
             class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-1">
@@ -379,7 +379,7 @@
     </div>
 </div>
 
-<div class="py-16 sm:py-24 lg:py-32" id="contact">
+<div class="py-20 sm:py-24 lg:py-32" id="contact">
     <div
         class="mx-auto max-w-screen-2xl px-6 lg:px-12 xl:px-24 grid grid-cols-1 lg:grid-cols-3">
         <div class="mx-auto max-w-2xl lg:mx-0">
@@ -395,27 +395,17 @@
                 building great products. Reach out and let's talk about how we
                 can stabilize your development, once and for all.
             </p>
-            <dl class="mt-10 space-y-4 text-base text-neutral-300">
-                <div class="flex gap-x-4">
-                    <dt class="flex-none">
-                        <span class="sr-only">Email</span>
-                        <svg class="h-7 w-6 text-neutral-400" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                        </svg>
-                    </dt>
-                    <dd><a class="hover:text-neutral-50"
-                            href="mailto:help@stabilize.dev">help@stabilize.dev</a>
-                    </dd>
-                </div>
-            </dl>
         </div>
-        <form action="#" method="POST"
+        <form name="help" action="/form/success" method="POST"
+            netlify-honeypot="honeypot" data-netlify="true"
             class="mt-12 lg:col-span-2 mx-auto w-full lg:w-5/6">
             <div
                 class="mx-auto grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                <div class="hidden">
+                    <label>
+                        Honeypot: <input name="honeypot" />
+                    </label>
+                </div>
                 <div>
                     <label for="first-name"
                         class="block text-sm font-semibold text-neutral-50">First

@@ -17,7 +17,7 @@
 <body
     class="min-h-full w-full text-neutral-100 bg-zinc-950 font-sans antialiased flex flex-col">
     <x-navbar></x-navbar>
-    <main class="flex-1">
+    <main class="flex-1 flex flex-col">
         @yield('body')
     </main>
     <x-footer></x-footer>

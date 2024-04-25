@@ -26,7 +26,7 @@
             class="border-t border-emerald-500/25 py-4 lg:py-8 flex items-center justify-between">
             <p
                 class="text-xs sm:text-base font-medium leading-5 text-neutral-50">
-                &copy; {{ date('Y') }} Stabilize Dev, LLC.</p>
+                &copy; {{ date('Y') }} Stabilize Development</p>
             <div class="flex space-x-3 sm:space-x-6">
                 <a href="#" class="text-neutral-50 hover:text-neutral-400">
                     <span class="sr-only">X</span>
