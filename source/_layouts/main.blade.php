@@ -5,8 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="{{ $page->getUrl() }}">
-    <meta name="description" content="{{ $page->description }}">
     <title>{{ $page->title }}</title>
+    <meta name="description" content="{{ $page->description }}">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="{{ $page->getUrl() }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ $page->title }}">
+    <meta property="og:description" content="{{ $page->description }}">
+    <meta property="og:image" content="{{ $page->baseUrl . $page->image }}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="{{ $page->getUrl() }}">
+    <meta property="twitter:url" content=" {{ $page->getUrl() }}">
+    <meta name="twitter:title" content="{{ $page->title }}">
+    <meta name="twitter:description" content="{{ $page->description }}">
+    <meta name="twitter:image" content="{{ $page->baseUrl . $page->image }}">
     <script defer
         src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
     <script src="//unpkg.com/alpinejs" defer></script>
