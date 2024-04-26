@@ -37,12 +37,14 @@
         </a>
         <div
             class="hidden sm:flex sm:flex-1 sm:justify-center sm:gap-x-6 xl:gap-x-12">
-            <a href="#focus"
+            <a href="/#focus"
                 class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-8 decoration-emerald-500 hover:underline lg:text-xl">Focus</a>
-            <a href="#services"
+            <a href="/#services"
                 class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-8 decoration-emerald-500 hover:underline lg:text-xl">Services</a>
-            <a href="#methods"
+            <a href="/#methods"
                 class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-8 decoration-emerald-500 hover:underline lg:text-xl">Methods</a>
+            <a href="/blog"
+                class="py-1 font-medium leading-6 text-neutral-50 decoration-2 decoration-wavy underline-offset-8 decoration-emerald-500 hover:underline lg:text-xl">Blog</a>
         </div>
         <a href="#contact"
             class="hidden sm:block rounded-full px-2.5 py-1 text-sm font-semibold text-emerald-500 shadow-sm ring-1 ring-inset ring-emerald-600 hover:bg-emerald-500 hover:text-neutral-950 xl:text-lg">Contact
@@ -62,12 +64,14 @@
             x-transition:leave="transition ease-in-out duration-500 transform"
             x-transition:leave-start="translate-y-0 opacity-100"
             x-transition:leave-end="-translate-y-full opacity-0">
-            <a @click="open = false" href="#focus"
+            <a @click="open = false" href="/#focus"
                 class="-mx-3 block rounded-lg px-3 py-3 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Focus</a>
-            <a @click="open = false" href="#services"
+            <a @click="open = false" href="/#services"
                 class="-mx-3 block rounded-lg px-3 py-3 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Services</a>
-            <a @click="open = false" href="#methods"
+            <a @click="open = false" href="/#methods"
                 class="-mx-3 block rounded-lg px-3 py-3 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Methods</a>
+            <a @click="open = false" href="/blog"
+                class="-mx-3 block rounded-lg px-3 py-3 text-lg font-semibold leading-7 text-neutral-50 decoration-2 decoration-wavy underline-offset-4 decoration-emerald-500 hover:underline">Blog</a>
             <a @click="open = false" href="#contact"
                 class="inline-flex -mx-2 rounded-full px-2.5 py-1 font-semibold text-emerald-500 shadow-sm ring-1 ring-inset ring-emerald-600 hover:bg-emerald-500 hover:text-neutral-950">Contact
                 Us</a>

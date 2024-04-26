@@ -23,7 +23,7 @@
     <meta name="msapplication-config"
         content="/assets/images/favicon/browserconfig.xml?v=2">
 
-    <title>{{ $page->title }}</title>
+    <title>Stabilize | {{ $page->title }}</title>
     <meta name="description" content="{{ $page->description }}">
 
     <!-- Facebook Meta Tags -->
@@ -52,6 +52,7 @@
     <x-navbar></x-navbar>
     <main class="flex-1 flex flex-col">
         @yield('body')
+        <x-contact></x-contact>
     </main>
     <x-footer></x-footer>
 </body>
