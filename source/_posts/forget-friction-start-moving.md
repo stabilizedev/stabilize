@@ -3,7 +3,7 @@ extends: '_layouts.post'
 date: '4/28/24'
 title: 'Forget Friction, Start Moving!'
 description: "There's no less friction in a career path than when you have no clear path ahead. When you're starting from scratch and deciding what to do next. It can feel daunting, but you're not alone. You have support, and you have community, you just have to go for it!"
-image: '/assets/images/blog/forget-friction-start-moving.jpg'
+image: '/assets/images/blog/forget-friction-start-moving.jpg?v=2'
 ---
 I recently got laid off from a 7-year job as a Senior Developer and Product Manager.
 
