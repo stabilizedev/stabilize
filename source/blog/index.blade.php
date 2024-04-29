@@ -39,7 +39,7 @@ title: Blog
                     </a>
                 </h2>
                 <p class="mt-4 text-sm leading-6 text-neutral-300 line-clamp-3">
-                    {{ $post->excerpt() }}
+                    {{ $post->description }}
                 </p>
                 <div
                     class="hidden mt-4 gap-x-2.5 text-sm font-semibold leading-6 text-neutral-50">

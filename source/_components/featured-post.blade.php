@@ -12,7 +12,7 @@
                 $post->title }}</a>
         </h2>
         <p class="mt-4 leading-8 text-neutral-300">
-            {{ $post->summary }}
+            {{ $post->description }}
         </p>
     </div>
 </article>
