@@ -3,10 +3,10 @@
 @section('body')
 <div class="py-6 sm:pt-12">
     <div
-        class="prose lg:prose-xl prose-invert prose-emerald mx-auto px-6 prose-li:marker:text-emerald-500">
+        class="prose lg:prose-xl xl:prose-2xl prose-invert prose-emerald mx-auto px-6 lg:px-0 prose-li:marker:text-emerald-500">
         <div class="mb-8">
             <a href="/blog"
-                class="text-sm font-semibold no-underline hover:underline decoration-2 decoration-wavy underline-offset-8 decoration-emerald-500 text-emerald-500">
+                class="text-sm font-semibold no-underline hover:underline decoration-2 decoration-wavy underline-offset-8 decoration-emerald-500 text-emerald-500 xl:text-base">
                 <span aria-hidden="true">&larr;</span>
                 Blog
             </a>
