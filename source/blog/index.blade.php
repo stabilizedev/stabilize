@@ -42,11 +42,11 @@ title: Blog
                     {{ $post->description }}
                 </p>
                 <div
-                    class="hidden mt-4 gap-x-2.5 text-sm font-semibold leading-6 text-neutral-50">
-                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                        alt=""
-                        class="h-6 w-6 flex-none rounded-full bg-gray-50">
-                    Felipe Vega
+                    class="hidden items-center mt-8 gap-x-2.5 font-medium leading-6 text-neutral-50">
+                    <img src="{{ $post->author()->image }}"
+                        class="h-10 w-10 flex-none rounded-full bg-neutral-50 shadow-sm"
+                        alt="{{ $post->author()->name }}">
+                    {{ $post->author()->name }}
                 </div>
             </li>
             @endforeach

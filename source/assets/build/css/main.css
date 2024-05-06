@@ -1544,9 +1544,9 @@ select {
 .bg-emerald-950\/20 {
   background-color: rgb(2 44 34 / 0.2);
 }
-.bg-gray-50 {
+.bg-neutral-50 {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 .bg-neutral-950 {
   --tw-bg-opacity: 1;
@@ -2570,6 +2570,37 @@ select {
 .focus-visible\:outline-emerald-600:focus-visible {
   outline-color: #059669;
 }
+.prose-p\:before\:content-none :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)))::before {
+  --tw-content: none;
+  content: var(--tw-content);
+}
+.prose-blockquote\:border-emerald-500 :is(:where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-border-opacity: 1;
+  border-color: rgb(16 185 129 / var(--tw-border-opacity));
+}
+.prose-blockquote\:text-sm :is(:where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.prose-blockquote\:text-lg :is(:where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.prose-blockquote\:\[quotes\:none\] :is(:where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  quotes: none;
+}
+.prose-blockquote\:before\:contents :is(:where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)))::before {
+  content: var(--tw-content);
+  display: contents;
+}
+.prose-blockquote\:before\:content-none :is(:where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)))::before {
+  --tw-content: none;
+  content: var(--tw-content);
+}
+.prose-blockquote\:prose-p\:before\:content-none :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) :is(:where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)))::before {
+  --tw-content: none;
+  content: var(--tw-content);
+}
 .prose-li\:marker\:text-emerald-500 * :is(:where(li):not(:where([class~="not-prose"],[class~="not-prose"] *)))::marker {
   color: rgb(16 185 129 );
 }
@@ -2725,11 +2756,6 @@ select {
     padding-bottom: 2rem;
   }
 
-  .sm\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .sm\:pt-12 {
     padding-top: 3rem;
   }
@@ -2878,6 +2904,11 @@ select {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -2921,11 +2952,6 @@ select {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .lg\:text-4xl {

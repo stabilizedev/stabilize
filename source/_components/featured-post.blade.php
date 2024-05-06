@@ -14,5 +14,12 @@
         <p class="mt-4 leading-8 text-neutral-300">
             {{ $post->description }}
         </p>
+        <div
+            class="hidden items-center mt-8 gap-x-2.5 font-medium leading-6 text-neutral-50">
+            <img src="{{ $post->author()->image }}"
+                class="h-10 w-10 flex-none rounded-full bg-neutral-50 shadow-sm"
+                alt="{{ $post->author()->name }}">
+            {{ $post->author()->name }}
+        </div>
     </div>
 </article>
