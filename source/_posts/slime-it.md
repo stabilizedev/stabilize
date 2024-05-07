@@ -3,6 +3,7 @@ extends: '_layouts.post'
 date: '5/6/24'
 title: 'Stuck? Slime it!'
 description: "If you're anything like me, you've dealt with Analysis Paralysis. That's the overwhelming feeling you get when you don't know what to pick or how to proceed, and you're stuck wading in an ocean of choice with no dry land in sight. What if I told you the way to avoid that was to just do anything?"
+image: '/assets/images/blog/slime-it.jpg?'
 ---
 
 If you're anything like me, you've dealt with ***Analysis Paralysis***. That's the overwhelming feeling you get when you don't know what to pick or how to proceed, and you're stuck wading in an ocean of choice with no dry land in sight. What if I told you the way to avoid that was to just do ***anything***?
