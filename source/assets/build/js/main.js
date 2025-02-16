@@ -1,16 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./source/_assets/js/main.js":
-/*!***********************************!*\
-  !*** ./source/_assets/js/main.js ***!
-  \***********************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
 /***/ "./source/_assets/css/main.css":
 /*!*************************************!*\
   !*** ./source/_assets/css/main.css ***!
@@ -20,6 +10,16 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./source/_assets/js/main.js":
+/*!***********************************!*\
+  !*** ./source/_assets/js/main.js ***!
+  \***********************************/
+/***/ (() => {
+
 
 
 /***/ })
